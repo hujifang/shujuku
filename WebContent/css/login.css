@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+input[type="text"] {
+	height: 20px;
+	font-size: 15px;
+	font-family: FangSong;
+	border-width: 1px;
+	border-color: #38f;
+}
+
+input[type="password"] {
+	height: 20px;
+	font-size: 15px;
+	border-width: 1px;
+	border-color: #38f;
+}
+
+input[type="submit"] {
+	width: 80px;
+	height: 30px;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: #38f;
+	background-color: #38f;
+	color: white;
+}
+
+.left {
+	background-color: #bbddff;
+	width: 850px;
+	height: 265px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+}
+
+.right {
+	background: url(/shujuku/images/login_bg.png);
+	width: 400px;
+	height: 290px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	position: absolute;
+	left: 400px;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+}
+
+.logo {
+	width: 260px;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	right: 620px;
+	bottom: 480px;
+	top: 0;
+	margin: auto;
+}
+
+.time {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	text-align:center;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 450px;
+	margin: auto;
+	color: #566185;
+}
+
+/**************************************Tab样式***********************************/
+
+.notice {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.notice-title { /*标题的样式*/
+	height: 50px;
+	position: relative;
+}
+
+.notice-title ul {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.notice-title ul li {
+	float: left;
+	width: 197px;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	overflow: hidden;
+	padding: 0 1px; /*左右边padding一个像素*/
+	border-bottom:1px solid #fff;
+}
+
+.notice-title ul li.select {
+	background: #33ffff;
+	border-color: #fff;
+	font-weight: bolder;
+}
+
+.notice li a:link, .notice li a:visited { /*清除默认下划线和设置默认字体颜色*/
+	text-decoration: none;
+	color: #000;
+}
+
+.notice li a:hover {
+	color: blue;
+} /*划过的样式*/
+
+.notice-content .module {
+	margin:30px 0 0 0;
+}

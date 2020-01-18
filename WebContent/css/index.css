@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+button{
+	width: 80px;
+	height: 25px;
+	border-width: 1px;
+	border-color: #38f;
+	background-color: #38f;
+	color: white;
+	border-radius:5px;
+}
+
+select{
+	border-width: 1px;
+	border-color: #38f;
+}
+
+input[type="text"] {
+	height: 20px;
+	font-size: 15px;
+	border-width: 1px;
+	border-color: #38f;
+	border-radius:5px;
+	font-family: FangSong;
+}
+
+input[type="password"] {
+	width: 200px;
+	height: 25px;
+	font-size: 17px;
+	border-width: 1px;
+	border-color: #38f;
+	border-radius:5px;
+}
+
+input[type="submit"] {
+	width: 80px;
+	height: 25px;
+	border-width: 1px;
+	border-color: #38f;
+	background-color: #38f;
+	color: white;
+	border-radius:5px;
+}
+
+a:link, a:visited {
+	text-decoration: none; /*超链接无下划线*/
+}
+
+a:hover {
+	text-decoration: underline; /*鼠标放上去有下划线*/
+}
+
+/**************************************Tab样式***********************************/
+.notice {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #eee;
+	overflow: hidden;
+}
+
+.notice-title { /*标题的样式*/
+	height: 30px;
+	position: relative;
+	background-color: #F7F7F7;
+}
+
+.notice-title ul {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.notice-title ul li {
+	float: left;
+	width: 98px;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	overflow: hidden;
+	background-color: #F7F7F7;
+	border: 1px solid #eee;
+	padding: 0 1px; /*左右边padding一个像素*/
+}
+
+.notice-title ul li.select {
+	background: #38f;
+	border-color: #38f;
+	font-weight: bolder;
+}
+
+.notice li a:link, .notice li a:visited { /*清除默认下划线和设置默认字体颜色*/
+	text-decoration: none;
+	color: #000;
+}
+
+.notice li a:hover {
+	color: blue;
+} /*划过的样式*/
+.notice-content .module {
+	display: none;
+	margin: 10px 10px 10px 10px;
+}
+
+/**************************************表格样式***********************************/
+.table_content {
+	margin: 5px;
+	max-height: 500px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.table_content table {
+	width: 100%;
+	border: 0;
+	border-collapse: collapse;
+}
+
+.table_content table th {
+	border-collapse: collapse;
+	background: #B5D6E6;
+	text-align: center;
+	vertical-align: middle;
+	border-left: 1px solid #66aacc;
+	border-top: 1px solid #66aacc;
+	border-right: 1px solid #66aacc;
+	border-bottom: 1px solid #66aacc;
+}
+
+.table_content table td {
+	text-align: center;
+	vertical-align: middle;
+	border-left: 1px solid #B5D6E6;
+	border-top: 1px solid #B5D6E6;
+	border-right: 1px solid #B5D6E6;
+	border-bottom: 1px solid #B5D6E6;
+}

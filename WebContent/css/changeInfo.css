@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+select{
+	height: 24px;
+	border-width: 1px;
+	border-color: #38f;
+	border-radius:5px;
+	font-family: FangSong;
+}
+
+option{
+	font-family: FangSong;
+}
+
+input[type="date"] {
+	height: 22px;
+	font-size: 15px;
+	font-family: FangSong;
+	border-width: 1px;
+	border-color: #38f;
+	border-radius:5px;
+}
+
+input[type="text"] {
+	height: 20px;
+	font-size: 15px;
+	font-family: FangSong;
+	border-width: 1px;
+	border-color: #38f;
+	border-radius:5px;
+}
+
+button{
+	width: 80px;
+	height: 30px;
+	border-width: 1px;
+	border-color: #38f;
+	background-color: #38f;
+	color: white;
+	border-radius:5px;
+}

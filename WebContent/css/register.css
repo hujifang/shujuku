@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+select{
+	height: 24px;
+	border-width: 1px;
+	border-color: #38f;
+	font-family: FangSong;
+}
+
+option{
+	font-family: FangSong;
+}
+
+input[type="date"] {
+	height: 22px;
+	font-size: 15px;
+	font-family: FangSong;
+	border-width: 1px;
+	border-color: #38f;
+}
+
+input[type="text"] {
+	height: 20px;
+	font-size: 15px;
+	font-family: FangSong;
+	border-width: 1px;
+	border-color: #38f;
+}
+
+input[type="password"] {
+	height: 20px;
+	font-size: 15px;
+	border-width: 1px;
+	border-color: #38f;
+}
+
+input[type="submit"] {
+	width: 80px;
+	height: 30px;
+	border-width: 1px;
+	border-color: #38f;
+	background-color: #38f;
+	color: white;
+	border-radius: 5px;
+}
+
+.reg {
+	width: 500px;
+	height:470px;
+	border: 1px solid #38f;
+	border-radius:10px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+}
