@@ -50,10 +50,10 @@ public class CheckCodeServlet extends HttpServlet {
 		BufferedImage image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 		Graphics g = image.getGraphics();
 
-		char[] rands = generateCheckCode();
+		char[] rands = generateCheckCode();//生成随机数/字母
 
-		drawBackground(g);
-		drawRands(g, rands);
+		drawBackground(g);//绘制背景
+		drawRands(g, rands);//绘制随机数/字母
 
 		g.dispose();
 

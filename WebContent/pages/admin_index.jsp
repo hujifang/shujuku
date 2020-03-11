@@ -43,8 +43,6 @@
 		</table>
 	</div>
 	<iframe name='changePass' src='ChangePassword.java' style='width: 0; height: 0; border: none'></iframe>
-	<iframe name='changeInfo' src='ChangeInfo.java' style='width: 0; height: 0; border: none'></iframe>
-	<iframe name='addBook' src='AddBook.java' style='width: 0; height: 0; border: none'></iframe>
 	<div id="notice" class="notice">
 		<!-- 上面的标题栏 -->
 		<div id="notice-title" class="notice-title">
@@ -91,6 +89,8 @@
 					</form>
 					<iframe name="book" src="book.jsp"
 						style="width: 100%; height: 540px; border: none"></iframe>
+					<iframe name='addBook' src='AddBook.java'
+						style='width: 0; height: 0; border: none'></iframe>
 				</center>
 			</div>
 			<!-- 借书管理 -->

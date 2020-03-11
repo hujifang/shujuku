@@ -34,7 +34,7 @@
 								+ "</tr>");
 					}else{
 						for(int i = 0;i < reserveList.size();i++){
-							int rank = 0;
+							int rank = 0;  //以下计算排名
 							ArrayList<Reserve> rankList = new ArrayList<Reserve>();
 							rankList = rsd.findAllISBN(reserveList.get(i).getISBN());
 							for(int j = 0;j < rankList.size();j++){

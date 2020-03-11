@@ -74,7 +74,7 @@
 							<br> <input id="bt" type="submit" value="登录">
 						</form>
 						<h6>
-							<a href="register.jsp">没有账号？点我去注册用户账号</a>
+							<a href="register.jsp">没有账号？点这里注册</a>
 						</h6>
 					</div>
 					<!-- 管理员 -->

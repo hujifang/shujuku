@@ -12,12 +12,12 @@ window.onload = function() {
 	}
 	// 遍历titles下所有的li
 	for (var i = 0; i < titles.length; i++) {
-		titles[i].onclick = function() {
+		titles[i].onclick = function() {    //设置每个li的点击事件
 			// 清除所有li上的class
 			for (var j = 0; j < titles.length; j++) {
 				titles[j].className = '';
 				divs[j].style.display = 'none';
-				setCookie('tab', this.id, 0);
+				setCookie('tab', this.id, 0);  //通过cookie保存当前li
 			}
 			// 设置当前为高亮显示
 			this.className = 'select';
@@ -25,7 +25,7 @@ window.onload = function() {
 		}
 	}
 
-	// 判断是有cookie值
+	// 判断是否有cookie值
 	if (getCookie('tab')) {
 		for (var i = 0; i < titles.length; i++) {
 			titles[i].className = '';
@@ -55,7 +55,6 @@ window.onload = function() {
 			}
 
 		}
-
 		return '';
 	}
 	

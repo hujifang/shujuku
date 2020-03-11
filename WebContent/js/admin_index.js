@@ -132,10 +132,10 @@ function changepassword() {
 			});
 }
 function addbook() {
-	var str = "";
+	var classNumStr = "";
 	for(var i = 65;i < 91;i++){
 		var s = String.fromCharCode(i);
-		str += "<option style='font-family: FangSong;' value='" + s + "'>"+ s + "</option>";
+		classNumStr += "<option style='font-family: FangSong;' value='" + s + "'>"+ s + "</option>";
 	}
 	layer
 			.open({
@@ -150,7 +150,7 @@ function addbook() {
 						+ "<form name='addbook_form' action='/shujuku/AddBook' method='post' target='addBook'><table>"
 						+ "<tr><td>图书分类号：</td>"
 						+ "<td><select name='classNum' style='height: 24px;border-width: 1px;border-color: #38f;border-radius:5px;font-family: FangSong;'>"
-						+ str
+						+ classNumStr
 						+ "</select></td></tr>"
 						+ "<tr><td>ISBN：</td>"
 						+ "<td><input type='text' name='isbn' maxlength='13' style='width: 200px'></td></tr>"

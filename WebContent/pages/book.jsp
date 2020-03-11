@@ -10,7 +10,7 @@
 <script type="text/javascript" src="/shujuku/layer/layer.js"></script>
 <link rel="stylesheet" type="text/css" href="/shujuku/css/book.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>数据</title>
+<title>图书数据</title>
 </head>
 <body>
 	<center>

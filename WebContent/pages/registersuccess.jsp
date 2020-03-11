@@ -7,9 +7,7 @@
 <title>注册成功</title>
 </head>
 <body>
-	<div
-		style="width: 500px; height: 100px; position: absolute; left: 0; right: 0; bottom: 0; top: 0; margin: auto;">
-
+	<div style="width: 500px; height: 100px; position: absolute; left: 0; right: 0; bottom: 0; top: 0; margin: auto;">
 		<h1 style="font-family: KaiTi; color: green">
 			<img src="/shujuku/images/success.jpg" height=25px width=25px>
 			注册成功，将在3秒后跳转首页

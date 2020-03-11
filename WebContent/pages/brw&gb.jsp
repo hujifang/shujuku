@@ -8,7 +8,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="/shujuku/css/book.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>数据</title>
+<title>借还记录</title>
 </head>
 <body>
 	<center>

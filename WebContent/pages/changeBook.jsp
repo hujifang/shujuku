@@ -10,7 +10,7 @@
 <script type="text/javascript" src="/shujuku/layer/layer.js"></script>
 <link rel="stylesheet" type="text/css" href="/shujuku/css/changeInfo.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>注册</title>
+<title>修改图书信息</title>
 <script type="text/javascript">
 	function check(form) {
 		if (form.name.value == '') {

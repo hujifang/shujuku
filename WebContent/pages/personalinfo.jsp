@@ -15,7 +15,7 @@
 		<%
 			Reader reader0 = (Reader)session.getAttribute("reader");
 			ReaderDao rd = new ReaderDao();
-			Reader reader = rd.findById(reader0.getId());
+			Reader reader = rd.findById(reader0.getId());       //显示数据库中的reader信息而非session中的
 		%>
 		<h3>个人信息</h3>
 		<div class="table_content" style="width: 50%">
